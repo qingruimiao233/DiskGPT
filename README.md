@@ -1,0 +1,2 @@
+# DiskGPT
+解决使用KVM虚拟机时Linux和Windows处于同一块磁盘导致无法挂载的问题
