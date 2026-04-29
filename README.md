@@ -1,6 +1,6 @@
 # DiskGPT
 
-**DiskGPT** 是一个为 Linux + Windows 双系统用户设计的磁盘虚拟化拼接工具。
+**DiskGPT** 是一个在KVM虚拟机中直通单个分区的磁盘虚拟化拼接工具。
 
 ### 核心痛点
 当你的 Linux（宿主机）和 Windows（本地磁盘中）处于**同一块物理硬盘**时， KVM 磁盘直通（Passthrough）无法将单个磁盘分区直通给虚拟机
