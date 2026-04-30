@@ -67,11 +67,3 @@ sudo diskgpt -automatic
 虽然这个玩意不会主动写入你的 Linux 分区，但操作磁盘映射具有一定风险，请确保在虚拟机配置中仅将生成的 `/dev/mapper/win11-spliced` 作为磁盘使用。
 
 ---
-
-## 📂 配置文件位置
-
-程序的记忆功能会生成以下纯文本配置文件，如需重置所有选择，直接删除它们即可：
-- `/etc/diskgpt_last_disk.conf` (物理硬盘持久化 ID)
-- `/etc/diskgpt_last_mount.conf` (挂载分区序列)
-- `/etc/diskgpt_last_gpu.conf` (独立显卡 PCI 地址)
-- `/etc/diskgpt_last_vm.conf` (KVM 虚拟机名称)
